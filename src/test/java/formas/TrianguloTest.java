@@ -24,7 +24,7 @@ public class TrianguloTest {
         // pega o valor da área retornado pela função getArea()
         double actualArea = triangulo.getArea();
 
-        // Verifica se a área retornada é igual à esperada (com margem de erro 0.0001)
-        assertEquals(expectedArea, actualArea, 0.0001, "Área do triângulo incorreta");
+        // Verifica se a área retornada é igual à esperada
+        assertEquals(expectedArea, actualArea, 0, "Área do triângulo incorreta");
     }
 }
