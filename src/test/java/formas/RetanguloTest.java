@@ -1,16 +1,8 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/UnitTests/JUnit5TestClass.java to edit this template
- */
 package formas;
 
 import static org.junit.jupiter.api.Assertions.assertEquals; // igual ao outro, para o uso do AssertEquals
 import org.junit.jupiter.api.Test; // marcador para uso do teste
 
-/**
- *
- * @author guiho
- */
 public class RetanguloTest {
 
     @Test // test usado para que o método abaixo seja um teste
